@@ -1,0 +1,321 @@
+[
+  {
+    "title": "Sayı Avcısı Oyunu",
+    "description": "Evde bulunan nesnelerle sayıları öğrenme ve sayma becerilerini geliştirme oyunu",
+    "type": "game",
+    "ageRange": {"min": 3, "max": 6},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "1. Evde bulunan nesneleri toplayın (kalem, kitap, oyuncak vb.)\n2. Her nesneyi sayın ve sayısını yazın\n3. Sayıları karşılaştırın ve en çok hangi nesnenin olduğunu bulun\n4. Sayıları sıraya dizin ve ritmik sayma yapın",
+      "materials": ["kalem", "kağıt", "evdeki nesneler", "sayı kartları"],
+      "questions": []
+    },
+    "tags": ["matematik", "sayılar", "oyun", "eğlenceli", "temel beceriler"]
+  },
+  {
+    "title": "Renk Eşleştirme Oyunu",
+    "description": "Renkleri öğrenme, tanıma ve eşleştirme becerilerini geliştiren aktivite",
+    "type": "game",
+    "ageRange": {"min": 2, "max": 5},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "1. Farklı renklerde kağıtlar hazırlayın\n2. Aynı renkteki nesneleri bulun\n3. Renkleri eşleştirin ve isimlerini öğrenin\n4. Renk karıştırma deneyleri yapın",
+      "materials": ["renkli kağıtlar", "renkli kalemler", "evdeki renkli nesneler", "boya"],
+      "questions": []
+    },
+    "tags": ["renkler", "eşleştirme", "oyun", "temel", "görsel algı"]
+  },
+  {
+    "title": "Hayvan Sesleri Quiz",
+    "description": "Hayvan seslerini tanıma ve hayvan türlerini öğrenme aktivitesi",
+    "type": "quiz",
+    "ageRange": {"min": 3, "max": 8},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "Hayvan seslerini dinleyin ve hangi hayvana ait olduğunu tahmin edin. Doğru cevabı öğrendikten sonra o hayvan hakkında bilgi edinin.",
+      "materials": ["hayvan sesleri (internet/uygulama)", "kağıt", "kalem", "hayvan resimleri"],
+      "questions": [
+        {
+          "question": "Hangi hayvan 'miyav' sesi çıkarır?",
+          "options": ["Köpek", "Kedi", "Kuş", "Balık"],
+          "correctAnswer": 1,
+          "explanation": "Kediler 'miyav' sesi çıkarır ve evcil hayvanlardır"
+        },
+        {
+          "question": "Hangi hayvan 'hav hav' sesi çıkarır?",
+          "options": ["Kedi", "Köpek", "Kuş", "Fare"],
+          "correctAnswer": 1,
+          "explanation": "Köpekler 'hav hav' sesi çıkarır ve sadık arkadaşlardır"
+        }
+      ]
+    },
+    "tags": ["hayvanlar", "sesler", "quiz", "eğitici", "doğa"]
+  },
+  {
+    "title": "Alfabe Öğrenme Oyunu",
+    "description": "Harfleri öğrenme ve ses-harf ilişkisini kurma aktivitesi",
+    "type": "lesson",
+    "ageRange": {"min": 4, "max": 7},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. Her harf için bir nesne bulun (A-Elma, B-Balık vb.)\n2. Harfleri sesli olarak söyleyin\n3. Harfleri yazma pratiği yapın\n4. Basit kelimeler oluşturun",
+      "materials": ["alfabe kartları", "kağıt", "kalem", "nesneler", "mıknatıslı harfler"],
+      "questions": []
+    },
+    "tags": ["okuma yazma", "alfabe", "harfler", "dil gelişimi", "temel eğitim"]
+  },
+  {
+    "title": "Şekil Çizme ve Tanıma",
+    "description": "Temel geometrik şekilleri öğrenme ve çizme becerilerini geliştirme",
+    "type": "exercise",
+    "ageRange": {"min": 3, "max": 6},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "1. Daire, kare, üçgen şekillerini tanıyın\n2. Şekilleri çizmeye çalışın\n3. Şekilleri nesnelerle eşleştirin\n4. Şekil kombinasyonları oluşturun",
+      "materials": ["kağıt", "kalem", "şekil şablonları", "renkli kalemler"],
+      "questions": []
+    },
+    "tags": ["geometri", "şekiller", "çizim", "görsel algı", "matematik"]
+  },
+  {
+    "title": "Hafıza Kartları Oyunu",
+    "description": "Görsel hafıza ve eşleştirme becerilerini geliştiren konsantrasyon oyunu",
+    "type": "game",
+    "ageRange": {"min": 4, "max": 10},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. Kartları karıştırın ve ters çevirin\n2. İki kart açın ve eşleşip eşleşmediğini kontrol edin\n3. Eşleşen kartları toplayın\n4. Tüm kartları eşleştirmeye çalışın",
+      "materials": ["hafıza kartları", "masa", "zamanlayıcı"],
+      "questions": []
+    },
+    "tags": ["hafıza", "konsantrasyon", "oyun", "bilişsel gelişim", "eşleştirme"]
+  },
+  {
+    "title": "Müzik ve Ritim Oyunu",
+    "description": "Müzik duygusunu ve ritim becerilerini geliştiren aktivite",
+    "type": "game",
+    "ageRange": {"min": 2, "max": 8},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "1. Basit ritimler oluşturun (davul, tencere, kaşık)\n2. Müziğe uygun hareket edin\n3. Ritim tekrarlayın\n4. Kendi müziğinizi yapın",
+      "materials": ["davul", "kaşık", "tencere", "müzik çalar", "çıngırak"],
+      "questions": []
+    },
+    "tags": ["müzik", "ritim", "hareket", "sanat", "eğlenceli"]
+  },
+  {
+    "title": "Hikaye Anlatma Oyunu",
+    "description": "Hayal gücünü ve dil becerilerini geliştiren yaratıcı aktivite",
+    "type": "lesson",
+    "ageRange": {"min": 4, "max": 12},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. Bir resim seçin veya çizin\n2. Bu resimle ilgili hikaye uydurun\n3. Hikayeyi anlatın ve kaydedin\n4. Hikayeyi resimlerle destekleyin",
+      "materials": ["resimler", "kağıt", "kalem", "kayıt cihazı", "boya"],
+      "questions": []
+    },
+    "tags": ["dil gelişimi", "hayal gücü", "yaratıcılık", "hikaye", "iletişim"]
+  },
+  {
+    "title": "Bilim Deneyi: Su Döngüsü",
+    "description": "Su döngüsünü öğrenme ve basit bilimsel deney yapma",
+    "type": "exercise",
+    "ageRange": {"min": 6, "max": 12},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. Bir kaba su koyun ve güneşe bırakın\n2. Suyun buharlaşmasını gözlemleyin\n3. Buharın yoğuşmasını izleyin\n4. Su döngüsünü açıklayın",
+      "materials": ["su", "kap", "cam kapak", "termometre", "güneş ışığı"],
+      "questions": []
+    },
+    "tags": ["bilim", "deney", "su döngüsü", "doğa", "gözlem"]
+  },
+  {
+    "title": "Matematik Labirenti",
+    "description": "Matematik problemlerini çözerek labirentten çıkma oyunu",
+    "type": "game",
+    "ageRange": {"min": 7, "max": 12},
+    "difficulty": "hard",
+    "content": {
+      "instructions": "1. Labirentte ilerleyin\n2. Her çatalda matematik sorusu çözün\n3. Doğru cevaba göre yön seçin\n4. Çıkışa ulaşmaya çalışın",
+      "materials": ["labirent çizimi", "kalem", "hesap makinesi", "kağıt"],
+      "questions": [
+        {
+          "question": "5 + 3 = ?",
+          "options": ["6", "7", "8", "9"],
+          "correctAnswer": 2,
+          "explanation": "5 + 3 = 8"
+        }
+      ]
+    },
+    "tags": ["matematik", "labirent", "problem çözme", "oyun", "mantık"]
+  },
+  {
+    "title": "Duygu Tanıma Oyunu",
+    "description": "Farklı duyguları tanıma ve ifade etme becerilerini geliştirme",
+    "type": "game",
+    "ageRange": {"min": 3, "max": 8},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "1. Duygu kartlarını inceleyin\n2. Her duyguyu taklit edin\n3. Duyguları hikayelerle ilişkilendirin\n4. Kendi duygularınızı ifade edin",
+      "materials": ["duygu kartları", "ayna", "resimler", "hikaye kitapları"],
+      "questions": []
+    },
+    "tags": ["duygusal gelişim", "sosyal beceriler", "empati", "iletişim", "psikoloji"]
+  },
+  {
+    "title": "Kodlama Temelleri",
+    "description": "Algoritma düşünme ve basit kodlama mantığını öğrenme",
+    "type": "lesson",
+    "ageRange": {"min": 8, "max": 15},
+    "difficulty": "hard",
+    "content": {
+      "instructions": "1. Basit komutları sıraya dizin\n2. Adım adım talimatlar yazın\n3. Robot gibi hareket edin\n4. Programlama mantığını anlayın",
+      "materials": ["komut kartları", "kağıt", "kalem", "oyuncak robot", "bilgisayar"],
+      "questions": []
+    },
+    "tags": ["kodlama", "algoritma", "mantık", "teknoloji", "problem çözme"]
+  },
+  {
+    "title": "Çevre Farkındalığı",
+    "description": "Çevre koruma ve sürdürülebilirlik konularını öğrenme",
+    "type": "lesson",
+    "ageRange": {"min": 5, "max": 12},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. Geri dönüşüm kutularını öğrenin\n2. Atık ayrıştırma oyunu oynayın\n3. Çevre dostu alışkanlıklar edinin\n4. Doğa koruma projeleri planlayın",
+      "materials": ["geri dönüşüm kutuları", "atık malzemeler", "resimler", "video"],
+      "questions": []
+    },
+    "tags": ["çevre", "geri dönüşüm", "sürdürülebilirlik", "doğa", "sorumluluk"]
+  },
+  {
+    "title": "Yoga ve Nefes Egzersizleri",
+    "description": "Fiziksel ve zihinsel sağlığı destekleyen yoga aktiviteleri",
+    "type": "exercise",
+    "ageRange": {"min": 4, "max": 12},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "1. Basit yoga duruşları öğrenin\n2. Nefes egzersizleri yapın\n3. Meditasyon teknikleri deneyin\n4. Vücut farkındalığı geliştirin",
+      "materials": ["yoga matı", "rahat kıyafetler", "müzik", "resimli kartlar"],
+      "questions": []
+    },
+    "tags": ["yoga", "sağlık", "nefes", "meditasyon", "fiziksel gelişim"]
+  },
+  {
+    "title": "Dünya Haritası Keşfi",
+    "description": "Dünya ülkelerini ve kültürlerini öğrenme aktivitesi",
+    "type": "lesson",
+    "ageRange": {"min": 6, "max": 15},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. Dünya haritasını inceleyin\n2. Farklı ülkeleri öğrenin\n3. Kültürleri karşılaştırın\n4. Coğrafi özellikleri keşfedin",
+      "materials": ["dünya haritası", "atlas", "bayraklar", "resimler", "video"],
+      "questions": []
+    },
+    "tags": ["coğrafya", "kültür", "dünya", "eğitim", "keşif"]
+  },
+  {
+    "title": "Sanat ve El Sanatları",
+    "description": "Yaratıcılığı geliştiren sanat aktiviteleri",
+    "type": "exercise",
+    "ageRange": {"min": 3, "max": 12},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "1. Farklı sanat teknikleri deneyin\n2. Kendi eserlerinizi yaratın\n3. Renk ve şekil kombinasyonları yapın\n4. Sanat tarihini öğrenin",
+      "materials": ["boya", "fırça", "kağıt", "makas", "yapıştırıcı", "artık malzemeler"],
+      "questions": []
+    },
+    "tags": ["sanat", "yaratıcılık", "el sanatları", "renkler", "ifade"]
+  },
+  {
+    "title": "Fen Bilgisi Quiz",
+    "description": "Temel fen bilgisi konularını test eden sorular",
+    "type": "quiz",
+    "ageRange": {"min": 8, "max": 15},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "Fen bilgisi sorularını cevaplayın ve doğru cevapları öğrenin. Her sorudan sonra konuyu daha detaylı araştırın.",
+      "materials": ["quiz kağıdı", "kalem", "fen kitabı", "internet"],
+      "questions": [
+        {
+          "question": "Hangi gezegen Güneş'e en yakındır?",
+          "options": ["Mars", "Venüs", "Merkür", "Dünya"],
+          "correctAnswer": 2,
+          "explanation": "Merkür Güneş'e en yakın gezegendir"
+        },
+        {
+          "question": "Su hangi sıcaklıkta donar?",
+          "options": ["0°C", "100°C", "-10°C", "50°C"],
+          "correctAnswer": 0,
+          "explanation": "Su 0°C'de donar"
+        }
+      ]
+    },
+    "tags": ["fen bilgisi", "quiz", "bilim", "eğitim", "test"]
+  },
+  {
+    "title": "Sosyal Beceriler Oyunu",
+    "description": "İletişim ve sosyal etkileşim becerilerini geliştirme",
+    "type": "game",
+    "ageRange": {"min": 4, "max": 10},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. Rol yapma oyunları oynayın\n2. Grup aktiviteleri yapın\n3. İletişim becerilerini geliştirin\n4. Empati kurmayı öğrenin",
+      "materials": ["rol yapma kartları", "oyuncaklar", "maske", "kostümler"],
+      "questions": []
+    },
+    "tags": ["sosyal beceriler", "iletişim", "empati", "rol yapma", "grup"]
+  },
+  {
+    "title": "Mantık Bulmacaları",
+    "description": "Mantık ve problem çözme becerilerini geliştiren bulmacalar",
+    "type": "exercise",
+    "ageRange": {"min": 6, "max": 15},
+    "difficulty": "hard",
+    "content": {
+      "instructions": "1. Mantık bulmacalarını çözün\n2. Sudoku oynayın\n3. Kelime bulmacaları yapın\n4. Matematik bulmacaları çözün",
+      "materials": ["bulmaca kitapları", "kağıt", "kalem", "sudoku", "kelime oyunları"],
+      "questions": []
+    },
+    "tags": ["mantık", "bulmaca", "problem çözme", "bilişsel gelişim", "eğlenceli"]
+  },
+  {
+    "title": "Spor ve Fiziksel Aktivite",
+    "description": "Fiziksel gelişimi destekleyen spor aktiviteleri",
+    "type": "exercise",
+    "ageRange": {"min": 3, "max": 15},
+    "difficulty": "easy",
+    "content": {
+      "instructions": "1. Basit spor hareketleri yapın\n2. Koordinasyon oyunları oynayın\n3. Takım sporları deneyin\n4. Fiziksel dayanıklılık geliştirin",
+      "materials": ["top", "ip", "koni", "spor ekipmanları", "müzik"],
+      "questions": []
+    },
+    "tags": ["spor", "fiziksel gelişim", "koordinasyon", "sağlık", "aktivite"]
+  },
+  {
+    "title": "Dil Öğrenme Oyunu",
+    "description": "Yabancı dil öğrenme ve pratik yapma aktivitesi",
+    "type": "lesson",
+    "ageRange": {"min": 5, "max": 15},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. Temel kelimeleri öğrenin\n2. Basit cümleler kurun\n3. Dil pratiği yapın\n4. Kültürü tanıyın",
+      "materials": ["dil kartları", "sözlük", "video", "müzik", "resimler"],
+      "questions": []
+    },
+    "tags": ["dil öğrenme", "yabancı dil", "kültür", "iletişim", "eğitim"]
+  },
+  {
+    "title": "Teknoloji Güvenliği",
+    "description": "İnternet ve teknoloji güvenliğini öğrenme",
+    "type": "lesson",
+    "ageRange": {"min": 8, "max": 15},
+    "difficulty": "medium",
+    "content": {
+      "instructions": "1. İnternet güvenliğini öğrenin\n2. Kişisel bilgileri koruyun\n3. Siber zorbalığı tanıyın\n4. Güvenli internet kullanımı",
+      "materials": ["bilgisayar", "video", "kartlar", "kitap", "internet"],
+      "questions": []
+    },
+    "tags": ["teknoloji", "güvenlik", "internet", "dijital okuryazarlık", "eğitim"]
+  }
+] 
