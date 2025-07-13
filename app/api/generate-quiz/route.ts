@@ -87,7 +87,7 @@ const generateMockQuiz = (activityTitle: string, activityDescription: string, ca
 
 export async function POST(req: Request) {
   try {
-    const { activityTitle, activityDescription, category } = await req.json()
+  const { activityTitle, activityDescription, category } = await req.json()
 
     // Check if OpenAI API key is available
     if (!process.env.OPENAI_API_KEY) {
@@ -96,34 +96,34 @@ export async function POST(req: Request) {
       return Response.json(mockQuiz)
     }
 
-    const result = await generateObject({
-      model: openai("gpt-4o"),
-      schema: quizSchema,
+  const result = await generateObject({
+    model: openai("gpt-4o"),
+    schema: quizSchema,
       prompt: `"${activityTitle}" etkinliği için 5 soruluk bir quiz oluştur.
 
-      Etkinlik açıklaması: ${activityDescription}
-      Kategori: ${category}
-      
-      Quiz şartları:
+    Etkinlik açıklaması: ${activityDescription}
+    Kategori: ${category}
+    
+    Quiz şartları:
       - 5 adet çoktan seçmeli soru
       - Her soru 3 seçenekli (A, B, C)
       - İlkokul 1-4. sınıf seviyesinde sorular (6-10 yaş)
-      - Etkinlikle ilgili bilgileri test eden sorular
-      - Türkçe sorular
-      - Eğitici ve öğretici içerik
+    - Etkinlikle ilgili bilgileri test eden sorular
+    - Türkçe sorular
+    - Eğitici ve öğretici içerik
       - Her soru için kısa açıklama ekle
-      
+    
       Sorular etkinlikte öğrenilen kavramları, gözlemleri ve bilimsel prensipleri test etmeli.
       Seçenekler net ve anlaşılır olmalı.`,
-    })
+  })
 
     const quizData = result.object as z.infer<typeof quizSchema>
-    
-    return Response.json({
-      id: Date.now().toString(),
-      activityId: Date.now().toString(),
+
+  return Response.json({
+    id: Date.now().toString(),
+    activityId: Date.now().toString(),
       questions: quizData.questions
-    })
+  })
   } catch (error) {
     console.error("Quiz generation error:", error)
     

@@ -20,7 +20,7 @@ const activitySchema = z.object({
   difficulty: z.enum(['easy', 'medium', 'hard']),
   content: z.object({
     instructions: z.string(),
-    materials: z.array(z.string()),
+  materials: z.array(z.string()),
     questions: z.array(z.object({
       question: z.string(),
       options: z.array(z.string()).optional(),

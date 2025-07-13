@@ -296,7 +296,7 @@ export default function FamilyEducationPlatform() {
           ageGroup: `${data.activity.ageRange?.min || 6}-${data.activity.ageRange?.max || 10} yaş`,
           completed: false
         }
-        setActivities((prev) => [newActivity, ...prev])
+      setActivities((prev) => [newActivity, ...prev])
         setCustomActivityPrompt("")
       } else {
         throw new Error(data.error || 'Aktivite oluşturulamadı')
@@ -574,8 +574,8 @@ export default function FamilyEducationPlatform() {
         <p className="text-gray-600 max-w-md">
           Çocuğunuzun eğitimi ve gelişimi konusunda uzman tavsiyeler almak için 
           gelişmiş AI asistanımızı kullanın.
-        </p>
-      </div>
+                    </p>
+                  </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl w-full">
         <Card className="p-6 text-center hover:shadow-lg transition-shadow cursor-pointer"
@@ -595,7 +595,7 @@ export default function FamilyEducationPlatform() {
             Konuşma geçmişi, hızlı eylemler ve önerilen sorular
           </p>
         </Card>
-      </div>
+                </div>
       
       <Button 
         size="lg"
@@ -604,7 +604,7 @@ export default function FamilyEducationPlatform() {
       >
         <MessageCircle className="w-5 h-5 mr-2" />
         Veli AI'ya Git
-      </Button>
+            </Button>
     </div>
   )
 
@@ -612,17 +612,17 @@ export default function FamilyEducationPlatform() {
     <div className="space-y-6">
       <div className="flex gap-4">
         <Card className="flex-1">
-          <CardHeader>
-            <CardTitle className="text-lg">Özel Etkinlik Önerisi</CardTitle>
-          </CardHeader>
-          <CardContent>
+        <CardHeader>
+          <CardTitle className="text-lg">Özel Etkinlik Önerisi</CardTitle>
+        </CardHeader>
+        <CardContent>
             <div className="flex gap-2 items-center">
-              <Input
-                placeholder="Hangi konuda etkinlik istiyorsunuz? (örn: uzay, hayvanlar, müzik)"
-                value={customActivityPrompt}
-                onChange={(e) => setCustomActivityPrompt(e.target.value)}
-                disabled={isGeneratingActivity}
-              />
+            <Input
+              placeholder="Hangi konuda etkinlik istiyorsunuz? (örn: uzay, hayvanlar, müzik)"
+              value={customActivityPrompt}
+              onChange={(e) => setCustomActivityPrompt(e.target.value)}
+              disabled={isGeneratingActivity}
+            />
               <Select value={customActivityAge} onValueChange={setCustomActivityAge}>
                 <SelectTrigger className="w-32">
                   <SelectValue placeholder="Yaş" />
@@ -634,12 +634,12 @@ export default function FamilyEducationPlatform() {
                   <SelectItem value="12">12-15 yaş</SelectItem>
                 </SelectContent>
               </Select>
-              <Button onClick={generateCustomActivity} disabled={isGeneratingActivity}>
-                {isGeneratingActivity ? "Oluşturuluyor..." : "Oluştur"}
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
+            <Button onClick={generateCustomActivity} disabled={isGeneratingActivity}>
+              {isGeneratingActivity ? "Oluşturuluyor..." : "Oluştur"}
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
 
         <Card className="w-64">
           <CardHeader>
@@ -790,38 +790,38 @@ export default function FamilyEducationPlatform() {
           <div className="space-y-6">
             {!showResults ? (
               <>
-                <p className="text-gray-600">
-                  Etkinliği tamamladığınız için tebrikler! Şimdi öğrendiklerinizi test edelim.
-                </p>
+            <p className="text-gray-600">
+              Etkinliği tamamladığınız için tebrikler! Şimdi öğrendiklerinizi test edelim.
+            </p>
 
-                {currentQuiz.questions.map((question, index) => (
-                  <div key={question.id} className="space-y-3">
-                    <h3 className="font-semibold">
-                      {index + 1}. {question.question}
-                    </h3>
-                    <RadioGroup
-                      value={quizAnswers[question.id]?.toString()}
-                      onValueChange={(value) =>
-                        setQuizAnswers((prev) => ({ ...prev, [question.id]: Number.parseInt(value) }))
-                      }
-                    >
-                      {question.options.map((option, optionIndex) => (
-                        <div key={optionIndex} className="flex items-center space-x-2">
-                          <RadioGroupItem value={optionIndex.toString()} id={`${question.id}-${optionIndex}`} />
-                          <Label htmlFor={`${question.id}-${optionIndex}`}>{option}</Label>
-                        </div>
-                      ))}
-                    </RadioGroup>
-                  </div>
-                ))}
-
-                <Button
-                  className="w-full"
-                  onClick={completeQuiz}
-                  disabled={Object.keys(quizAnswers).length < currentQuiz.questions.length}
+            {currentQuiz.questions.map((question, index) => (
+              <div key={question.id} className="space-y-3">
+                <h3 className="font-semibold">
+                  {index + 1}. {question.question}
+                </h3>
+                <RadioGroup
+                  value={quizAnswers[question.id]?.toString()}
+                  onValueChange={(value) =>
+                    setQuizAnswers((prev) => ({ ...prev, [question.id]: Number.parseInt(value) }))
+                  }
                 >
-                  Quiz'i Tamamla
-                </Button>
+                  {question.options.map((option, optionIndex) => (
+                    <div key={optionIndex} className="flex items-center space-x-2">
+                      <RadioGroupItem value={optionIndex.toString()} id={`${question.id}-${optionIndex}`} />
+                      <Label htmlFor={`${question.id}-${optionIndex}`}>{option}</Label>
+                    </div>
+                  ))}
+                </RadioGroup>
+              </div>
+            ))}
+
+            <Button
+              className="w-full"
+              onClick={completeQuiz}
+              disabled={Object.keys(quizAnswers).length < currentQuiz.questions.length}
+            >
+              Quiz'i Tamamla
+            </Button>
               </>
             ) : (
               <>
